@@ -1,0 +1,721 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo > img {
+	height: 150px;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(0, 71, 0, 0.927);
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 30px;
+}
+
+.navbar > ul > li {
+	list-style: none;
+	background-color: rgb(46, 177, 39);
+	padding: 15px;
+	border-top-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+.navbar > ul > li:hover {
+	background-color: rgba(0, 71, 0, 0.927);
+}
+
+.navbar > ul > li > a:hover {
+	color: rgb(46, 177, 39);
+}
+
+.navbar > ul {
+	display: flex;
+	justify-content: space-around;
+	width: 50rem;
+}
+
+.li-index {
+	list-style: none;
+}
+
+.title-design-propio {
+	background-color: white;
+	text-align: center;
+	font-size: 72px;
+	font-style: italic;
+	width: 99vw;
+}
+
+.title-contact {
+	background-color: white;
+	text-align: center;
+	font-size: 72px;
+
+	font-style: italic;
+	padding: 10px 0px 10px 0;
+}
+
+.nav-link:link,
+.nav-link:visited,
+.nav-link:active {
+	text-decoration: none;
+	color: rgb(236, 236, 35);
+	font-size: 1.25rem;
+	padding: 0px 20px 0px 20px;
+}
+
+.img-design-1 > img {
+	width: 100%;
+}
+
+.events {
+	background-color: rgba(0, 71, 0, 0.927);
+	color: rgb(236, 236, 35);
+	text-align: center;
+	font-size: 58px;
+	margin: 20px 0 20px 0;
+}
+
+.schedule {
+	margin-bottom: 30px;
+}
+
+.date {
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: green;
+	width: 720px;
+	margin: 0 30px 30px 15px;
+	border: 1rem solid rgb(236, 236, 35);
+}
+
+.date > ul > li {
+	list-style: none;
+}
+
+.date-li {
+	font-size: 2.25rem;
+	font-style: italic;
+	font-weight: bold;
+	color: rgb(236, 236, 35);
+}
+
+.date-and-img {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+figure {
+	margin-left: 40px;
+}
+
+.banner-container {
+	width: 100%;
+	height: 40vh;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../assets/design1_image1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.img-text {
+	margin-bottom: 30px;
+	width: 100%;
+	display: flex;
+	align-self: center;
+}
+
+.img-text > img {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.img-contact {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.img-about {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.img-about {
+	margin-bottom: 30px;
+	width: 80%;
+	align-self: center;
+}
+
+.img-about > img {
+	width: 70%;
+}
+
+.texto-about {
+	margin: 0px 50px 25px 50px;
+	text-align: center;
+	font-size: 32px;
+}
+
+.img-contact > img {
+	width: 720px;
+	margin: 0 auto;
+}
+
+.img-contact {
+	margin-bottom: 30px;
+}
+
+.contact {
+	display: flex;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+.dl-about {
+	text-align: center;
+	font-size: 2rem;
+	background-color: green;
+	border: 1rem solid rgb(236, 236, 35);
+}
+
+.dt-about {
+	font-size: 2.5rem;
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(236, 236, 35);
+}
+.section-about {
+	margin: 0 30px 0 30px;
+}
+
+.contact-email {
+	text-decoration: none;
+	color: rgb(236, 236, 35);
+}
+
+.contact-text {
+	margin-bottom: 30px;
+}
+
+.contact-text-container {
+	font-size: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: green;
+	width: 900px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+	border: 16px solid rgb(236, 236, 35);
+}
+
+.contact-email {
+	margin-bottom: 30px;
+}
+
+.contact-text-two {
+	margin: 0px 30px 0 30px;
+}
+
+/*--RULES--CSS--STYLES--*/
+
+.rules-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.75rem;
+	background-color: rgba(0, 71, 0, 0.927);
+	margin: 30px 0 30px 0;
+}
+
+.rules-title > h2 {
+	color: rgb(236, 236, 35);
+	font-size: 1.15rem;
+}
+
+.rules-title > h3 {
+	font-size: 2.75rem;
+	color: rgb(236, 236, 35);
+}
+
+.rules-title > p {
+	color: rgb(236, 236, 35);
+	font-size: 1rem;
+}
+
+.rules-section {
+	background-color: green;
+}
+
+.rules-dl-container {
+	background-color: greenyellow;
+	margin: 0 5rem;
+	height: 75vh;
+	border: solid 15px rgb(236, 236, 35);
+	padding: 15px;
+}
+
+.dd-tab {
+	margin-left: 1.5rem;
+}
+
+.rules-dt-title {
+	margin-bottom: 1rem;
+	font-size: 1.75rem;
+	font-weight: 500;
+}
+
+ol,
+ul {
+	margin-bottom: 1.5rem;
+	margin-left: 2rem;
+}
+
+.rules-list {
+	margin-bottom: 1.5rem;
+}
+
+.rules-list::marker {
+	padding-left: 2rem;
+}
+
+dd {
+	margin-bottom: 30px;
+	padding: 0 15px;
+}
+
+.font-text {
+	font-size: 1.3rem;
+	margin-bottom: 15px;
+}
+
+.font-text-coach {
+	font-size: 1.3rem;
+	margin-left: 1.5rem;
+}
+
+.style-circle {
+	list-style-type: circle;
+}
+
+.latin-list {
+	list-style-type: lower-latin;
+	padding-left: 1.5rem;
+}
+
+/*--TABLE--CSS--STYLES--*/
+/* table,
+tr,
+th,
+td {
+	border: 1px solid black;
+} */
+
+table {
+	border-collapse: collapse;
+	width: 900px;
+	height: 40vh;
+}
+
+.fixture-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.75rem;
+	background-color: rgba(0, 71, 0, 0.927);
+	margin: 30px 0 30px 0;
+}
+
+.fixture-container > h2 {
+	color: rgb(236, 236, 35);
+	font-size: 1.15rem;
+}
+
+.fixture-container > h3 {
+	font-size: 2.75rem;
+	color: rgb(236, 236, 35);
+}
+
+.fixture-container > p {
+	color: rgb(236, 236, 35);
+	font-size: 1rem;
+}
+
+.table-container {
+	width: 100vw;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: greenyellow;
+}
+
+tbody {
+	background-color: rgba(246, 255, 0, 0.713);
+	font-size: 1.5rem;
+}
+
+tbody tr th {
+	font-weight: normal;
+}
+
+thead {
+	background-color: green;
+	font-size: 1.5rem;
+	color: rgba(246, 255, 0, 0.713);
+}
+
+thead > tr > th {
+	height: 2.5rem;
+}
+
+.game-text-section {
+	background-color: rgba(0, 71, 0, 0.927);
+	padding: 1.75rem;
+}
+
+.game-text-section div h5 {
+	font-size: 1.5rem;
+	color: rgb(236, 236, 35);
+}
+
+.game-type p {
+	margin-left: 0.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.game-type {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.game-type-tel-email {
+	display: flex;
+	justify-content: space-between;
+}
+
+.game-type-addi-info {
+	display: flex;
+}
+
+/*--MAPS--STYLE--CSS--*/
+.maps-section {
+	background-color: green;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 30px 0 30px 0;
+	margin-bottom: 25px;
+}
+
+.maps-section > div > h4 {
+	font-size: 1.75rem;
+	text-align: center;
+	background-color: rgba(246, 255, 0, 0.713);
+}
+
+.maps-section > div {
+	margin-bottom: 1.75rem;
+}
+
+/*--FORM--STYLE--CSS--*/
+
+.registration-title {
+	text-align: center;
+	font-size: 1.75rem;
+	background-color: rgba(0, 71, 0, 0.927);
+	margin: 30px 0 30px 0;
+}
+
+.registration-title > h2 {
+	color: rgb(236, 236, 35);
+	font-size: 3.6rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 60vh;
+	background-color: rgba(0, 71, 0, 0.927);
+}
+
+fieldset {
+	font-size: 2rem;
+	border: 2px solid black;
+	width: 95%;
+	background-color: rgba(246, 255, 0, 0.713);
+	color: black;
+	margin-top: 2rem;
+	padding: 0.5rem;
+}
+
+select {
+	font-size: 1.75rem;
+}
+
+.permission-container {
+	margin-bottom: 30px;
+}
+
+.input-text {
+	border: none;
+	border-bottom: 2px solid black;
+	width: 32vw;
+	font-size: 1.5rem;
+}
+
+.datos-fieldset {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.school-radio-container {
+	display: flex;
+}
+
+.school-radio-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.parent-signature-conteiner {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-icon {
+	width: 25px;
+	height: 25px;
+	margin-left: 15px;
+}
+
+.submit-btn {
+	margin-bottom: 30px;
+	width: 200px;
+	background-color: rgba(246, 255, 0, 0.713);
+	font-size: 2rem;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+
+.tabla-forms-resultado {
+	width: 100vw;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(0, 71, 0, 0.927);
+	width: 100%;
+	height: 50px;
+	margin-top: 25px;
+}
+
+footer > div {
+	font-size: 1.25rem;
+	color: rgb(236, 236, 35);
+}
+
+/*--MEDIA--QUERIES--1000px--*/
+@media (max-width: 1000px) {
+	.date-and-img {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.date-li {
+		font-size: 1.5rem;
+	}
+
+	.li-index {
+		font-size: 1.25rem;
+	}
+
+	.navbar > ul {
+		flex-direction: column;
+		width: 10rem;
+	}
+
+	.navbar > ul > li {
+		margin-top: 15px;
+		width: 130px;
+	}
+
+	.img-text {
+		width: 500px;
+	}
+
+	.img-text > img {
+		width: 480px;
+		margin: 0 auto;
+	}
+
+	.date {
+		width: 600px;
+		margin: 15px;
+	}
+
+	.title-design-propio {
+		font-size: 50px;
+	}
+
+	.events {
+		font-size: 35px;
+	}
+
+	.contact {
+		flex-direction: column;
+	}
+
+	.img-contact {
+		width: 720px;
+	}
+
+	.img-contact > img {
+		width: 720px;
+	}
+
+	.dl-about {
+		font-size: 1.5rem;
+	}
+
+	.dt-about {
+		font-size: 2rem;
+	}
+
+	.contact-text-container {
+		width: 720px;
+		align-self: center;
+		margin-left: 30px;
+	}
+
+	.rules-dl-container {
+		height: 100%;
+	}
+
+	.rules-title > h3 {
+		font-size: 35px;
+	}
+
+	.registration-title > h2 {
+		font-size: 35px;
+	}
+
+	fieldset {
+		font-size: 16px;
+	}
+
+	.input-icon {
+		width: 15px;
+		height: 15px;
+		margin-left: 15px;
+	}
+
+	.input-text {
+		font-size: 1rem;
+	}
+
+	.submit-btn {
+		font-size: 1rem;
+		width: 150px;
+	}
+}
+
+/*--MEDIA--QUERIES--600px--*/
+@media (max-width: 600px) {
+	.maps-section,
+	.game-text-section {
+		display: none;
+	}
+
+	.img-text > img {
+		display: none;
+	}
+
+	.date {
+		width: 500px;
+		margin: 15px;
+	}
+
+	.dl-about {
+		font-size: 1rem;
+	}
+
+	.dt-about {
+		font-size: 1.5rem;
+	}
+
+	.info {
+		display: none;
+	}
+
+	.title-design-propio {
+		font-size: 35px;
+	}
+
+	.img-contact {
+		display: none;
+	}
+
+	.contact-text-container {
+		width: 520px;
+		font-size: 1.5rem;
+	}
+
+	tbody {
+		font-size: 1rem;
+	}
+
+	tbody tr th {
+		font-weight: normal;
+	}
+
+	thead {
+		background-color: green;
+		font-size: 1rem;
+		color: rgba(246, 255, 0, 0.713);
+	}
+
+	thead > tr > th {
+		height: 1.5rem;
+	}
+
+	table,
+	tr,
+	th,
+	td {
+		border: 1px solid black;
+	}
+}
